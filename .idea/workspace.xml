@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b33707-600c-41ef-9485-82df6d9b86f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/styles/base/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/_settings.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/styles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,11 +35,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\WebstormProjects\expensify-react-app\src\styles\base" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -55,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582630082523</updated>
-      <workItem from="1582630085461" duration="2032000" />
+      <workItem from="1582630085461" duration="4035000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit - Project setup.">
       <created>1582630955911</created>
@@ -64,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582630955911</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set up react router to render various routes to the browser.">
+      <created>1582632229590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582632229590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,7 +98,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Init Commit - Project setup." />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Commit - Project setup." />
+    <MESSAGE value="Set up react router to render various routes to the browser." />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up react router to render various routes to the browser." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -87,5 +113,9 @@
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
     <state x="1591" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582632223689" />
+    <state x="1467" y="-920" key="SettingsEditor" timestamp="1582632484695">
+      <screen x="1006" y="-1082" width="1920" height="1040" />
+    </state>
+    <state x="1467" y="-920" key="SettingsEditor/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582632484695" />
   </component>
 </project>
