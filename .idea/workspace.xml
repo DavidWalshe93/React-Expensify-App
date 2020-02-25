@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b33707-600c-41ef-9485-82df6d9b86f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/expenses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/expenses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selectors/expenses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582630082523</updated>
-      <workItem from="1582630085461" duration="18394000" />
+      <workItem from="1582630085461" duration="19048000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit - Project setup.">
       <created>1582630955911</created>
@@ -108,7 +100,35 @@
       <option name="project" value="LOCAL" />
       <updated>1582645091841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added redux actions.">
+      <created>1582659618238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582659618238</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added redux reducers.">
+      <created>1582659642721</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582659642721</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added redux selectors.">
+      <created>1582659658091</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582659658091</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added redux store configuration.">
+      <created>1582659685936</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582659685936</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +140,11 @@
     <MESSAGE value="Set up react router to render various routes to the browser." />
     <MESSAGE value="Added some slight styling for NavLink when active. Added Navbar for page navigation." />
     <MESSAGE value="Broke out components to their own files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Broke out components to their own files." />
+    <MESSAGE value="Added redux actions." />
+    <MESSAGE value="Added redux reducers." />
+    <MESSAGE value="Added redux selectors." />
+    <MESSAGE value="Added redux store configuration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added redux store configuration." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -130,10 +154,10 @@
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
     <state x="1696" y="-815" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582630706672" />
-    <state x="1591" y="-967" key="CommitChangelistDialog2" timestamp="1582659656010">
+    <state x="1591" y="-967" key="CommitChangelistDialog2" timestamp="1582659692006">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
-    <state x="1591" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582659656010" />
+    <state x="1591" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582659692006" />
     <state x="1467" y="-920" key="SettingsEditor" timestamp="1582632484695">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
