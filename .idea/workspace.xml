@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b33707-600c-41ef-9485-82df6d9b86f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582630082523</updated>
-      <workItem from="1582630085461" duration="19048000" />
+      <workItem from="1582630085461" duration="21726000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit - Project setup.">
       <created>1582630955911</created>
@@ -128,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582659685936</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Redux working as expected in example in index.js.">
+      <created>1582660362856</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582660362856</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +154,8 @@
     <MESSAGE value="Added redux reducers." />
     <MESSAGE value="Added redux selectors." />
     <MESSAGE value="Added redux store configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added redux store configuration." />
+    <MESSAGE value="Redux working as expected in example in index.js." />
+    <option name="LAST_COMMIT_MESSAGE" value="Redux working as expected in example in index.js." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -154,10 +165,10 @@
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
     <state x="1696" y="-815" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582630706672" />
-    <state x="1591" y="-967" key="CommitChangelistDialog2" timestamp="1582659692006">
+    <state x="1591" y="-967" key="CommitChangelistDialog2" timestamp="1582660357530">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
-    <state x="1591" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582659692006" />
+    <state x="1591" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582660357530" />
     <state x="1467" y="-920" key="SettingsEditor" timestamp="1582632484695">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
@@ -166,5 +177,9 @@
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
     <state x="1730" y="-717" key="git4idea.ui.GitTagDialog/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582645126728" />
+    <state x="1629" y="-857" width="672" height="678" key="search.everywhere.popup" timestamp="1582662337521">
+      <screen x="1006" y="-1082" width="1920" height="1040" />
+    </state>
+    <state x="1629" y="-857" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582662337521" />
   </component>
 </project>
