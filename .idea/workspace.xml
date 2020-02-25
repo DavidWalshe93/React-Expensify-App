@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b33707-600c-41ef-9485-82df6d9b86f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582630082523</updated>
-      <workItem from="1582630085461" duration="24503000" />
+      <workItem from="1582630085461" duration="26054000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit - Project setup.">
       <created>1582630955911</created>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582664331153</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added a way to filter data based on a search term.">
+      <created>1582665820871</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582665820871</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +187,8 @@
     <MESSAGE value="Redux working as expected in example in index.js." />
     <MESSAGE value="Setup Redux store for creating presentational components in the app. Created Higher-Order Components to use redux connect to create a reactive presentation model when data changes in the redux data model." />
     <MESSAGE value="Added ExpenseListItem.js to the app and wired it to ExpenseList.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added ExpenseListItem.js to the app and wired it to ExpenseList.js" />
+    <MESSAGE value="Added a way to filter data based on a search term." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a way to filter data based on a search term." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -192,10 +198,10 @@
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
     <state x="1696" y="-815" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582630706672" />
-    <state x="1249" y="-967" key="CommitChangelistDialog2" timestamp="1582664323473">
+    <state x="1249" y="-967" key="CommitChangelistDialog2" timestamp="1582665817961">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
-    <state x="1249" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582664323473" />
+    <state x="1249" y="-967" key="CommitChangelistDialog2/0.0.1536.824/-914.-1080.1920.1040/1006.-1082.1920.1040@1006.-1082.1920.1040" timestamp="1582665817961" />
     <state x="1467" y="-920" key="SettingsEditor" timestamp="1582632484695">
       <screen x="1006" y="-1082" width="1920" height="1040" />
     </state>
