@@ -23,7 +23,7 @@ store.dispatch(setTextFilter("water"));
 console.log(getVisibleExpenses(store.getState().expenses, store.getState().filters));
 
 setTimeout(() => {
-    store.dispatch(setTextFilter("rent"));
+    store.dispatch(setTextFilter("bill"));
 }, 3000);
 
 const jsx = (
