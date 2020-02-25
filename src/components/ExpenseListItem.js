@@ -2,21 +2,19 @@
 
 import React from "react";
 import {connect} from "react-redux"
+import {removeExpense} from "../actions/expenses"
 
-const ExpenseListItem = (props) => (
+const ExpenseListItem = ({dispatch, id, description, amount, createdAt}) => (
     <>
         <h3>Expense Item</h3>
-        <p>Desc: {props.expense.description}</p>
-        <p>Amount: {props.expense.amount}</p>
-        <p>Created At: {props.expense.createdAt}</p>
+        <p>Desc: {description}</p>
+        <p>Amount: {amount}</p>
+        <p>Created At: {createdAt}</p>
+        <button onClick={() => {
+            dispatch(removeExpense({id: id}))
+        }}>Remove
+        </button>
     </>
 );
 
-// Redux state mapping
-const mapStateToProps = (state) => {
-    return {
-        expenses: state.expense
-    }
-};
-
-export default connect(mapStateToProps)(ExpenseListItem);
+export default connect()(ExpenseListItem);

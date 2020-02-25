@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8b33707-600c-41ef-9485-82df6d9b86f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ExpenseListFilters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseDashboardPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ExpenseList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ExpenseListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ExpenseListItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582630082523</updated>
-      <workItem from="1582630085461" duration="22875000" />
+      <workItem from="1582630085461" duration="24503000" />
     </task>
     <task id="LOCAL-00001" summary="Init Commit - Project setup.">
       <created>1582630955911</created>
@@ -144,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582663135076</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added ExpenseListItem.js to the app and wired it to ExpenseList.js">
+      <created>1582664331153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582664331153</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +181,8 @@
     <MESSAGE value="Added redux store configuration." />
     <MESSAGE value="Redux working as expected in example in index.js." />
     <MESSAGE value="Setup Redux store for creating presentational components in the app. Created Higher-Order Components to use redux connect to create a reactive presentation model when data changes in the redux data model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Redux store for creating presentational components in the app. Created Higher-Order Components to use redux connect to create a reactive presentation model when data changes in the redux data model." />
+    <MESSAGE value="Added ExpenseListItem.js to the app and wired it to ExpenseList.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ExpenseListItem.js to the app and wired it to ExpenseList.js" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
